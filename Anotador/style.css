@@ -1,0 +1,80 @@
+body {
+  color: antiquewhite;
+  background-color: #333;
+  font-size: 16px;
+}
+
+input {
+  color: #fff !important;
+}
+
+::placeholder {
+  color: #fff !important;
+}
+
+#nombreEquipo1 {
+  background-color: dodgerblue;
+}
+
+#nombreEquipo2 {
+  background-color: tomato;
+}
+
+#equipo1 {
+  border-right: 1px solid;
+}
+
+.nombre {
+  border-bottom: 1px solid;
+}
+
+#equipo1 .nombre {
+  color: dodgerblue;
+}
+
+#equipo2 .nombre {
+  color: tomato;
+}
+
+.half {
+  height: 200px;
+}
+
+.half.first {
+  border-bottom: 1px solid;
+}
+
+.actions {
+  border-top: 1px solid;
+}
+
+.punto {
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+}
+
+.punto.p1 {
+  border-left: 5px solid;
+}
+.punto.p2 {
+  border-left: 5px solid;
+  border-top: 5px solid;
+}
+.punto.p3 {
+  border-left: 5px solid;
+  border-top: 5px solid;
+  border-right: 5px solid;
+}
+.punto.p4 {
+  border: 5px solid;
+}
+#equipo1 .punto.p5 {
+  border: 5px solid;
+  background-color: dodgerblue;
+}
+
+#equipo2 .punto.p5 {
+  border: 5px solid;
+  background-color: tomato;
+}

@@ -1,0 +1,37 @@
+body {
+  background-color: #333;
+}
+
+.container {
+  display: flex;
+}
+
+.star {
+  font-size: x-large;
+  padding: 5px;
+  display: inline-block;
+  color: gray;
+  cursor: pointer;
+}
+
+.star:before {
+  content: '\2605';
+}
+
+.star.half:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 10px;
+  overflow: hidden;
+}
+
+.star.hover {
+  color: gold;
+  text-shadow: 0px 0px 10px #aaa;
+}
+
+.star.active {
+  color: gold;
+}
